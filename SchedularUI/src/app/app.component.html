@@ -1,0 +1,40 @@
+<div class="container">
+	<div class="row">
+<div class="panel panel-primary">
+			<div class="panel-heading">Engineer support schedule</div>
+			<div class="panel-body">
+				<table class="table table-responsive table-hover table-bordered">
+					<thead>
+						<tr>
+							<th scope="col">Day No</th>
+							<th scope="col">Date</th>
+							<th scope="col" colspan="2">Morning Shift </th>
+							<th scope="col" colspan="2">Afternoon Shift</th>
+						</tr>
+						<tr>
+								<th>&nbsp;</th>
+								<th>&nbsp;</th>
+								<th>Engineer Name</th>
+								<th>Engineer Id</th>
+								<th>Engineer Name</th>
+								<th>Engineer Id</th>
+						</tr>
+					</thead>
+					<tbody *ngFor="let schedule of schedules$">
+						<tr>
+							<td>{{schedule.dayNo}}</td>
+							<td>{{schedule.date}}</td>
+							<td>{{schedule.morningShift.engineerName}}</td>
+							<td>{{schedule.morningShift.engineerId}}</td>
+							<td>{{schedule.afternoonShift.engineerName}}</td>
+							<td>{{schedule.afternoonShift.engineerId}}</td>
+						</tr>
+					</tbody>
+				</table>
+				
+			</div>
+		</div>
+
+	</div>
+
+</div>

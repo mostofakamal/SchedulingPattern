@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schedular.API", "Schedular\Schedular.API.csproj", "{3DE4EF75-C5A1-4B33-9913-A646269482E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling.Lib", "Scheduling.Lib\Scheduling.Lib.csproj", "{27356822-9B26-4E8A-87AE-70636D70BCC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schedular.Tests", "Schedular.Tests\Schedular.Tests.csproj", "{9717EB21-CAD8-401E-9865-9F668C64C775}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SchedularUI", "SchedularUI\", "{A2C0F543-B68E-4913-B2F0-87906F72E42F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53352"
+		Debug.AspNetCompiler.PhysicalPath = "SchedularUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53352\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53352"
+		Release.AspNetCompiler.PhysicalPath = "SchedularUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53352\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53352"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE4EF75-C5A1-4B33-9913-A646269482E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE4EF75-C5A1-4B33-9913-A646269482E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE4EF75-C5A1-4B33-9913-A646269482E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE4EF75-C5A1-4B33-9913-A646269482E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27356822-9B26-4E8A-87AE-70636D70BCC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27356822-9B26-4E8A-87AE-70636D70BCC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27356822-9B26-4E8A-87AE-70636D70BCC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27356822-9B26-4E8A-87AE-70636D70BCC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9717EB21-CAD8-401E-9865-9F668C64C775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9717EB21-CAD8-401E-9865-9F668C64C775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9717EB21-CAD8-401E-9865-9F668C64C775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9717EB21-CAD8-401E-9865-9F668C64C775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C0F543-B68E-4913-B2F0-87906F72E42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C0F543-B68E-4913-B2F0-87906F72E42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C0F543-B68E-4913-B2F0-87906F72E42F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C0F543-B68E-4913-B2F0-87906F72E42F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5D1A937-2A5E-40B4-966D-FFAE708D325D}
+	EndGlobalSection
+EndGlobal
