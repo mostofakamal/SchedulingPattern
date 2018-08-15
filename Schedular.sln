@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schedular.API", "Schedular\Schedular.API.csproj", "{3DE4EF75-C5A1-4B33-9913-A646269482E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schedular.API", "Schedular.API\Schedular.API.csproj", "{3DE4EF75-C5A1-4B33-9913-A646269482E6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling.Lib", "Scheduling.Lib\Scheduling.Lib.csproj", "{27356822-9B26-4E8A-87AE-70636D70BCC5}"
 EndProject
